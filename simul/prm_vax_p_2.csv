@@ -1,0 +1,5 @@
+name, value, description
+vax_efficacy_lo, 0.60, vaccine efficacy low
+vax_efficacy_hi, 0.90, vaccine efficacy high
+vax_proba_prevent_colonization, 0.2, proba to prevent colonization
+vax_halflife, 730, half life of vaccine efficacy (exp decline)

@@ -1,0 +1,23 @@
+- annual incidence: ~ 5 / 10,000 patient-days 
+
+- Length of stay, no symptoms: 6-7 days.
+
+- relapses: 
+0: 85%
+1: 12%
+
+- Symptomatic period: median = 14 days
+
+- admission to onset: 
+All: mean 8 days
+HAI: mean 27 days
+
+- onset to isolation: mean = 1.5 - 3 days
+
+- total isolation duration: mean 20 days (median:14) . SB half this.
+
+- proportion HAI: 35%(SJ) - 50%(SB)
+
+- recurrences:
+0: 90%
+1: 8% 

@@ -1,0 +1,8 @@
+name, value
+lightCensus, 1
+recordContacts, 0
+horizon, 0
+horizon_year, 5
+timestep, 0.5   
+mc, 2
+cpus, 2

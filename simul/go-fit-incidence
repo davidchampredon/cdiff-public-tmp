@@ -1,0 +1,1 @@
+Rscript fit-to-incidence.R > out-fit-inc.txt

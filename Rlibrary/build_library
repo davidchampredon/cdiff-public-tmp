@@ -1,0 +1,11 @@
+rm -rf abmcdiff*
+rm -rf ./lib
+Rscript setup_library.R
+cp Makevars abmcdiff/src 
+R CMD build abmcdiff
+#R CMD check abmcdiff
+mkdir ./lib
+R CMD INSTALL -l ./lib abmcdiff
+echo --------------------------------------------------------
+echo R LIBRARY abmcdiff DONE. PERFORM CHECKS!!! 
+echo --------------------------------------------------------

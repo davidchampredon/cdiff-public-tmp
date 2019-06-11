@@ -1,0 +1,28 @@
+name, value
+hcs_name, LTCF
+hcs_type , LTCF
+occupancy   , 0.60
+sIdx_newPatient_prm1 , 0.15
+sIdx_newPatient_prm2 , 0.2
+sIdx_HCW_prm1 , 0.05
+sIdx_HCW_prm2 , 0.01
+DoS_newPatient_prm1 , 6.5
+DoS_newPatient_prm2 , 0.5
+nNurses     , 9
+nDoctors    , 3
+uid_start, 1000000
+admission_rate , 0.4
+lambda_prm_1     , 0.87
+lambda_prm_2     , 0.0000
+contamIdx_suscept_prm , 0.001
+decay_room_halftime      , 3.6
+decay_contamIdx_halftime , 1.6
+ratio_contam_other_room , 0.15
+prev_new_admission , 0.001
+proba_patient_visit_other , 0.8
+reset_contamIdx , 0.05
+mean_contact_HCW_patient_duration_minutes , 8.0 
+var_contact_HCW_patient_duration_minutes , 0.6
+contact_indiv_halftime , 0.25  
+visit_room_halftime , 0.9 
+

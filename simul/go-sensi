@@ -1,0 +1,6 @@
+rm -rf simul-mc-*.RData
+Rscript run-sensi.R prm_vax_strategy_0.csv > out-sensi-0.txt 
+Rscript run-sensi.R prm_vax_strategy_frailty.csv > out-sensi-1.txt 
+Rscript sensi-plot.R
+
+

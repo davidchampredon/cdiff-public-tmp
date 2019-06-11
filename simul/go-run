@@ -1,0 +1,8 @@
+#!/bin/sh
+
+Rscript run-simple.R > out-simple.txt 
+Rscript plot-mc.R  
+open plot-mc.pdf
+
+
+

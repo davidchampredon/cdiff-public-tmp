@@ -1,0 +1,7 @@
+name, value, description
+n.iso   , 80, number of isolation rooms ###20
+n.wards , 10, number of wards ###10
+rooms.per.ward.mean , 14, mean number of rooms per ward (Poisson distribution)
+beds.per.room.mean  , 2.1, mean number of beds per room (Poisson distribution)
+min.bed.per.room , 2, minimum number of beds for any room
+max.bed.per.room , 4, maximum number of beds for any room

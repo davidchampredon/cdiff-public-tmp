@@ -1,0 +1,16 @@
+name, value
+prd_incubation_mean , 6
+prd_incubation_var , 4
+prd_symptom_mean , 20
+prd_symptom_var , 9
+proba_clear_prm , 2
+prd_clear_asymptom_mean , 2
+prd_clear_asymptom_var , 0.1
+prd_clear_symptom_mean , 5
+prd_clear_symptom_var , 0.1
+contamIdx_max_asympt , 0.4
+contamIdx_ratio_symptomatic , 2.0001
+hazard_relapse, 0.07
+shape_relapse, 0.00001,
+infectIdx_init, 0.05
+

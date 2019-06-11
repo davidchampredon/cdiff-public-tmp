@@ -1,0 +1,33 @@
+name,value,description
+hcs_name,Hospital,name of the health care setting
+hcs_type,HOSPITAL,type of health care setting
+occupancy,0.90,average bed occupancy
+sIdx_newPatient_prm1,0.05,mean susceptibility index when creating patients (normal distribution)
+sIdx_newPatient_prm2,0.02,stddev susceptibility index when creating patients (normal distribution)
+sIdx_HCW_prm1,0.005,mean susceptibility index when creating HCW (normal distribution)
+sIdx_HCW_prm2,0.001,stddev susceptibility index when creating HCW (normal distribution)
+DoS_newPatient_prm1,1.87,log mean of patients' duration of stay (lognormal distribution) ### 0.6
+DoS_newPatient_prm2,0.4,log stddev of patients' duration of stay (lognormal distribution)
+nNurses,45,number of nurses (allocated to ward) ###70
+nDoctors,15,number of physicians (not allocated to ward) ###30
+uid_start,0,start index for all individuals' unique identification number
+admission_rate,30.0,daily admission rate (Poisson distribution) ###60
+lambda_prm_1,5,mean daily number of HCW/patient visits (Poisson distribution)
+lambda_prm_2,0.0000,not used because Poisson distribution (keep it in case distribution changes)
+contamIdx_suscept_prm,0.001,NOT USED Relationship between susceptibility index and shedding index
+decay_room_halftime,30.01,Half time for environmental room contamination
+decay_contamIdx_halftime,1.0,Half time for decay shedding after symptoms end
+ratio_contam_other_room,0.1,Ratio of environmental contamination  other / patient room
+prev_new_admission,0.0598703553341329,CDI prevalence among new admissions
+proba_patient_visit_other,0.05,probability patient visits other environment (than his/her room)
+reset_contamIdx,0.02,Daily reset level of contamIdx for HCWs
+mean_contact_HCW_patient_duration_minutes,3.0,mean contact duration HCW/patient (lognormal distribution)
+var_contact_HCW_patient_duration_minutes,0.7,variance contact duration HCW/patient (lognormal distribution)
+contact_indiv_halftime,5.45429860753939,Time to transmit half of one's contamination index during a contact b/w individuals
+visit_room_halftime,2.33317955508362,Time to transmit half of the contamination index of one room during a visit by individual
+contact_xchg_contamIdx,0.9999,proportion of contamIdx exchanged during contact bw 2 individiuals
+visit_xchg_contamIdx,0.9999,proportion of contamIdx exchanged during visit one indiv in one room
+clean_room_efficacy,0.85,mean efficacy for room cleaning (beta distribution shape hard-coded)
+onset_isolation_lag_mean,1.75,mean time lag between CDI symptoms onset and isolation
+proba_colectomy,0.01111,probability colectomy performed
+proba_fmt,0.01,probability fecal microbial transplant performed after recurrences

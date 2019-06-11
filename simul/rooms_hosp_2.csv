@@ -1,0 +1,10 @@
+type,ward,name,max_patient
+isolation_room,0,ISO1,1
+patient_room,1,P1,2
+patient_room,1,P2,6
+patient_room,1,P3,4
+patient_room,2,P4,4
+patient_room,2,P5,8
+patient_room,2,P6,6
+patient_room,2,P7,2
+patient_room,2,P8,2

@@ -1,0 +1,7 @@
+name, value, description
+vaxStrategy, frailty, type of the vaccination strategy
+proba_vax_newAdmission, 0.80, probability to vaccinate any new admission
+sIdxMin_vax_frailty,0.03,  minimum level of susceptibility index  for a patient to be vaccinated under the strategy "frailty"
+DoSMin_vax_frailty,0.0,  minimum duration of stay for a patient to be vaccinated under the strategy "frailty"
+vax_start_time, 1825, time when vaccination starts
+
